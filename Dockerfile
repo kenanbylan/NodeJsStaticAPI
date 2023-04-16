@@ -8,7 +8,7 @@ COPY package*.json ./
 RUN npm ci
 RUN npm ci swagger-ui-express
 
-COPY . /app
+COPY . /app/
 
 
 EXPOSE 3000
